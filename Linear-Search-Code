@@ -1,3 +1,7 @@
+#code to locate card which is sorted in decreasing order in linear method
+#Time Complexity is O(N) where N is number of cards.
+
+
 def linear_search(cards,query):
     position = 0
     

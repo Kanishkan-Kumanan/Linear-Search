@@ -1,0 +1,17 @@
+def linear_search(cards,query):
+    position = 0
+    
+    while position < len(cards):
+        
+        if cards[position] == query:
+            return position
+        
+        position+=1
+   
+    return -1    
+            
+cards = [] 
+query = 4
+p = linear_search(cards,query)
+
+#you can try it with various test_cases(various cards, various queries)
